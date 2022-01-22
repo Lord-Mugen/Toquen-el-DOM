@@ -1,0 +1,95 @@
+:root {
+  --fondo-oscuro: black;
+  --color-blanco: #fff5ed;
+  --color-amarillo: #ffd067;
+  --primera-fuente: "Montserrat", sans-serif;
+  --segunda-fuente: "Squada One";
+}
+
+body {
+  background-color: var(--fondo-oscuro);
+  height: 100%;
+}
+
+.main {
+  /*   background-color: violet;
+ */
+  margin: 8rem 4rem 2rem 4rem;
+  align-items: center;
+  text-align: center;
+}
+
+.home-title {
+  margin-bottom: 8rem;
+  text-align: center;
+  color: var(--color-amarillo);
+  font-size: 3rem;
+  font-family: var(--primera-fuente);
+}
+
+.title-dom {
+  font-size: 5.5rem;
+}
+
+.main p {
+  color: var(--color-blanco);
+  font-family: var(--primera-fuente);
+  font-size: 1.2rem;
+  margin-bottom: 10rem;
+}
+
+.container-piano {
+  background: linear-gradient(rgba(50, 50, 50, 0), rgba(50, 50, 50, 0.2)),
+    url(img/piano.png);
+  background-size: cover;
+  height: 50vh;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  font-family: var(--segunda-fuente);
+  padding-top: 2rem;
+
+  margin-bottom: 15rem;
+  border-radius: 15px;
+}
+
+.container-piano-title {
+  font-size: 4rem;
+  color: var(--color-blanco);
+  margin-top: 6rem;
+}
+.pi:hover {
+  color: black;
+}
+
+.container-piano-btn {
+  background-color: var(--color-amarillo);
+  color: black;
+  border: none;
+  border-radius: 30px;
+  padding: 1rem 1rem;
+  margin-top: 5rem;
+  font-size: 1.2rem;
+}
+.container-piano-btn:hover {
+  background-color: black;
+  color: #ffd067;
+}
+
+.footer-text {
+  font-family: var(--primera-fuente);
+  color: #ffd067;
+  margin-bottom: 2rem;
+}
+
+.iconos_redes {
+  margin-top: 0.5rem;
+  color: #ffd067;
+}
+
+.bi {
+  padding-left: 0.2rem;
+  font-size: 1rem;
+}
+
+@media (max-width: 1440);
