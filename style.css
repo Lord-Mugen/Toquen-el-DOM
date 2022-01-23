@@ -10,11 +10,10 @@ body {
   background-color: var(--fondo-oscuro);
   height: 100%;
 }
-
 .main {
   /*   background-color: violet;
  */
-  margin: 8rem 4rem 2rem 4rem;
+  margin: 6rem 4rem 2rem 4rem;
   align-items: center;
   text-align: center;
 }
@@ -23,18 +22,18 @@ body {
   margin-bottom: 8rem;
   text-align: center;
   color: var(--color-amarillo);
-  font-size: 3rem;
+  font-size: 2rem;
   font-family: var(--primera-fuente);
 }
 
 .title-dom {
-  font-size: 5.5rem;
+  font-size: 4rem;
 }
 
 .main p {
   color: var(--color-blanco);
   font-family: var(--primera-fuente);
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin-bottom: 10rem;
 }
 
@@ -42,21 +41,20 @@ body {
   background: linear-gradient(rgba(50, 50, 50, 0), rgba(50, 50, 50, 0.2)),
     url(img/piano.png);
   background-size: cover;
-  height: 50vh;
+  height: 16rem;
   width: 100%;
+  padding-top: 6rem;
   align-items: center;
   text-align: center;
   font-family: var(--segunda-fuente);
-  padding-top: 2rem;
-
   margin-bottom: 15rem;
   border-radius: 15px;
 }
 
 .container-piano-title {
-  font-size: 4rem;
+  font-size: 3rem;
   color: var(--color-blanco);
-  margin-top: 6rem;
+  margin-top: 4rem;
 }
 .pi:hover {
   color: black;
@@ -68,8 +66,13 @@ body {
   border: none;
   border-radius: 30px;
   padding: 1rem 1rem;
-  margin-top: 5rem;
+  margin-top: 4rem;
   font-size: 1.2rem;
+}
+
+.container-piano-btn a {
+  text-decoration: none;
+  color: black;
 }
 .container-piano-btn:hover {
   background-color: black;
@@ -92,4 +95,123 @@ body {
   font-size: 1rem;
 }
 
-@media (max-width: 1440);
+@media (min-width: 640px) {
+  .home-title {
+    font-size: 2.5rem;
+  }
+  .title-dom {
+    font-size: 4.5rem;
+  }
+
+  .main p {
+    font-size: 1.2rem;
+  }
+
+  .container-piano{
+    height: 18rem;
+  }
+  .container-piano-title {
+    font-size: 3.5rem;
+  }
+  .container-piano-btn {
+    font-size: 1.5rem;
+  }
+
+  .footer-text {
+    font-size: 1.2rem;
+  }
+
+  .bi {
+    font-size: 1.8rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .home-title {
+    font-size: 3rem;
+  }
+  .title-dom {
+    font-size: 5rem;
+  }
+
+  .main p {
+    font-size: 1.4rem;
+  }
+  .container-piano{
+    height: 20rem;
+  }
+  .container-piano-title {
+    font-size: 4rem;
+  }
+  .container-piano-btn {
+    font-size: 1.8rem;
+  }
+
+  .footer-text {
+    font-size: 1.2rem;
+  }
+
+  .bi {
+    font-size: 1.8rem;
+  }
+
+  @media (min-width: 1024px) {
+  .home-title {
+    font-size: 3.5rem;
+  }
+  .title-dom {
+    font-size: 5.5rem;
+  }
+
+  .main p {
+    font-size: 1.6rem;
+  }
+
+   .container-piano{
+    height: 22rem;
+  }
+  .container-piano-title {
+    font-size: 4.5rem;
+  }
+  .container-piano-btn {
+    font-size: 2rem;
+  }
+
+  .footer-text {
+    font-size: 1.2rem;
+  }
+
+  .bi {
+    font-size: 2rem;
+  }
+
+   @media (min-width: 1280px) {
+  .home-title {
+    font-size: 4rem;
+  }
+  .title-dom {
+    font-size: 6rem;
+  }
+
+  .main p {
+    font-size: 1.8rem;
+  }
+
+   .container-piano{
+    height: 24rem;
+  }
+  .container-piano-title {
+    font-size: 5rem;
+  }
+  .container-piano-btn {
+    font-size: 2.2rem;
+  }
+
+  .footer-text {
+    font-size: 1.2rem;
+  }
+
+  .bi {
+    font-size: 2.2rem;
+  }
+}
