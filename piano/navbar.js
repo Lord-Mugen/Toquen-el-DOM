@@ -10,3 +10,5 @@ function openMenu() {
   navbar.classList.toggle("active");
   navbarList.classList.toggle("active");
 }
+
+let hola = 15;
