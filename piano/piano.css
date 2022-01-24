@@ -80,6 +80,19 @@ body {
   top: 2.3rem;
 }
 
+.videotutorial{
+  color: #ffd067;
+  padding-top: 100px;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  font-family: var(--primera-fuente);
+}
+
+iframe{
+  width: 360px;
+  height: 360px;
+}
 
 @media screen and (min-width: 768px) {
 
