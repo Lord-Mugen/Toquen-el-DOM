@@ -86,12 +86,31 @@ body {
   font-size: 30px;
   display: flex;
   justify-content: center;
+  text-align: center;
   font-family: var(--primera-fuente);
 }
 
 iframe{
   width: 360px;
   height: 360px;
+}
+.learn__keyboard{
+  color: #ffd067;
+  padding-top: 100px;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: var(--primera-fuente);
+}
+
+h4{
+  margin-top: 100px;
+}
+
+p{
+  color: #fff5ed;
+  font-size: 20px;
 }
 
 @media screen and (min-width: 768px) {
