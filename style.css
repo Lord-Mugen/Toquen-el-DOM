@@ -119,6 +119,47 @@ body {
 
 } 
 
+/* Inicio de secccion de la marimba */
+.container-marimba{
+  background: linear-gradient(rgba(50, 50, 50, 0), rgba(50, 50, 50, 0.2)),
+    url(img/marimba1.jpg);
+  background-size: cover;
+  height: 16rem;
+  width: 100%;
+  padding-top: 6rem;
+  align-items: center;
+  text-align: center;
+  font-family: var(--segunda-fuente);
+  margin-bottom: 15rem;
+  border-radius: 15px;
+}
+
+.container-marimba-tittle{
+  font-size: 3rem;
+  color: var(--color-blanco);
+  margin-top: 4rem;
+}
+
+.container-marimba-btn{
+  background-color: var(--color-amarillo);
+  color: black;
+  border: none;
+  border-radius: 30px;
+  padding: 1rem 1rem;
+  margin-top: 4rem;
+  font-size: 2rem;
+}
+
+.container-marimba-btn a{
+  text-decoration: none;
+  color: #000;
+}
+.container-marimba-btn:hover{
+  background-color: #000;
+  color: #ffd067;
+
+} 
+
 /* inicio footer */
 .footer-text {
   font-family: var(--primera-fuente);
@@ -155,6 +196,28 @@ body {
     font-size: 3.5rem;
   }
   .container-piano-btn {
+    font-size: 1.5rem;
+  }
+
+
+  .container-bateria{
+    height: 18rem;
+  }
+  .container-bateria-title {
+    font-size: 3.5rem;
+  }
+  .container-bateria-btn {
+    font-size: 1.5rem;
+  }
+
+
+  .container-marimba{
+    height: 18rem;
+  }
+  .container-marimba-title {
+    font-size: 3.5rem;
+  }
+  .container-marimba-btn {
     font-size: 1.5rem;
   }
 
@@ -198,6 +261,17 @@ body {
     font-size: 1.8rem;
   }
 
+  .container-marimba{
+    height: 20rem;
+  }
+  .container-marimba-tittle{
+    font-size: 4rem;
+  }
+  .container-marimba.btn{
+    font-size: 1.8rem;
+  }
+
+
   .footer-text {
     font-size: 1.2rem;
   }
@@ -238,6 +312,15 @@ body {
     font-size: 2rem;
   }
 
+  .container-marimba{
+    height: 22rem;
+  }
+  .container-marimba-tittle{
+    font-size: 4.5rem;
+  }
+  .container-marimba.btn{
+    font-size: 2rem;
+  }
   .footer-text {
     font-size: 1.2rem;
   }
@@ -275,6 +358,16 @@ body {
     font-size: 5rem;
   }
   .container-bateria.btn{
+    font-size: 2.2rem;
+  }
+
+  .container-marimba{
+    height: 24rem;
+  }
+  .container-marimba-tittle{
+    font-size: 5rem;
+  }
+  .container-marimba.btn{
     font-size: 2.2rem;
   }
 
