@@ -119,6 +119,47 @@ body {
 
 } 
 
+/* Inicio de secccion de la marimba */
+.container-marimba{
+  background: linear-gradient(rgba(50, 50, 50, 0), rgba(50, 50, 50, 0.2)),
+    url(img/marimba1.jpg);
+  background-size: cover;
+  height: 16rem;
+  width: 100%;
+  padding-top: 6rem;
+  align-items: center;
+  text-align: center;
+  font-family: var(--segunda-fuente);
+  margin-bottom: 15rem;
+  border-radius: 15px;
+}
+
+.container-marimba-tittle{
+  font-size: 3rem;
+  color: var(--color-blanco);
+  margin-top: 4rem;
+}
+
+.container-marimba-btn{
+  background-color: var(--color-amarillo);
+  color: black;
+  border: none;
+  border-radius: 30px;
+  padding: 1rem 1rem;
+  margin-top: 4rem;
+  font-size: 2rem;
+}
+
+.container-marimba-btn a{
+  text-decoration: none;
+  color: #000;
+}
+.container-marimba-btn:hover{
+  background-color: #000;
+  color: #ffd067;
+
+} 
+
 /* inicio footer */
 .footer-text {
   font-family: var(--primera-fuente);
