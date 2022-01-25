@@ -84,46 +84,68 @@ body {
 .videotutorial {
   color: #ffd067;
   padding-top: 100px;
-  font-size: 8px;
-  display: flex;
+  font-size: 0.5rem;
   justify-content: center;
   text-align: center;
   font-family: var(--primera-fuente);
+}
+
+.videotutorial h3 {
+  font-size: 2rem;
 }
 
 iframe {
   height: 18.875em;
   width: 34em;
 }
+
 .learn__keyboard {
   color: #ffd067;
-  padding-top: 100px;
+  padding-top: 50px;
   font-size: 30px;
   display: flex;
   justify-content: center;
   text-align: center;
   font-family: var(--primera-fuente);
 }
+.learn__keyboard h3 {
+  font-size: 2rem;
+}
+.learn__keyboard h5 {
+  margin-top: 2rem;
+  background-color: brown;
+  border-radius: 29px 5px;
+}
 
-h4 {
-  margin-top: 100px;
+.learn__keyboard img {
+  max-width: 10rem;
 }
 
 p {
   color: #fff5ed;
-  font-size: 20px;
+  font-size: 1rem;
 }
 
 main {
-  padding: 0 2rem;
+  margin: 0 2rem;
 }
+
 /* SECCIÓN DEL PIANO 
  */
 
 .piano {
   font-size: 0.5rem;
+  position: relative;
+  text-align: center;
+  font-family: var(--primera-fuente);
+  color: var(--color-amarillo);
+  padding-top: 50px;
 }
-ul {
+
+.piano h3 {
+  font-size: 2rem;
+}
+.set {
   height: 18.875em;
   width: 34em;
   margin: 5em auto;
@@ -139,6 +161,7 @@ ul {
     url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/187/vwood.png);
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.5) inset,
     0 1px rgba(212, 152, 125, 0.2) inset, 0 5px 15px rgba(0, 0, 0, 0.5);
+  display: flex;
 }
 
 li {
@@ -146,10 +169,11 @@ li {
   padding: 0;
   list-style: none;
   position: relative;
-  float: left;
+  /*   float: left;
+ */
 }
 
-ul .white {
+.white {
   height: 16em;
   width: 4em;
   z-index: 1;
@@ -161,7 +185,7 @@ ul .white {
   background: linear-gradient(to bottom, #eee 0%, #fff 100%);
 }
 
-ul .white:active {
+.white:active {
   border-top: 1px solid #777;
   border-left: 1px solid #999;
   border-bottom: 1px solid #999;
@@ -196,12 +220,38 @@ ul .white:active {
   margin: 0 0 0 -1em;
 }
 
-ul li:first-child {
+.set li:first-child {
   border-radius: 5px 0 5px 5px;
 }
 
-ul li:last-child {
+.set li:last-child {
   border-radius: 0 5px 5px 5px;
+}
+
+.notas_blancas {
+  position: absolute;
+  font-family: var(--segunda-fuente);
+  font-size: 10px;
+  top: 110px;
+  margin: 0 10px;
+}
+.footer {
+  text-align: center;
+}
+.footer-text {
+  font-family: var(--primera-fuente);
+  color: #ffd067;
+  margin-bottom: 2rem;
+}
+
+.iconos_redes {
+  margin-top: 0.5rem;
+  color: #ffd067;
+}
+
+.bi {
+  padding-left: 0.2rem;
+  font-size: 1rem;
 }
 @media screen and (min-width: 768px) {
   .navbar__logo {

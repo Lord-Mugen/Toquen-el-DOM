@@ -18,7 +18,7 @@
   <header class="header">
     <nav class="navbar">
       <div class="navbar__logo"><span>TED</span></div>
-      <button class="navbar__menu_button"><i id="menu" class="bi bi-list"></i></button>
+      <button class="navbar__menu_button"><i id="menu" class=" btn bi bi-list"></i></button>
     </nav>
     <ul class="navbar__list">
       <li><a href="index.html">HOME</a></li>
@@ -38,16 +38,21 @@
     <section class="learn__keyboard">
       <div>
         <h3>CÓMO TOCAR<br> EL PIANO ONLINE</h3>
-
-        <h4>Teclado</h4>
+        <h5>
+          Notas Músicales
+        </h5>
+        <img src="/img/notas-musicales.png" alt="notas musicales del piano">
+        <h5>Teclado</h5>
         <p>Debido a como fue creado, <br> este piano nos permite reproducir<br> sus bellas notas por medio del
           <br>teclado de nuestra computadora.
         </p>
+        <img src="/img/teclado-piano.png" alt="">
       </div>
     </section>
     <section id="keyboard" class="piano">
+      <h3>PIANO</h3>
       <ul class="set">
-        <li onclick="jsNota(349.228)" class="white b"></li>
+        <li onclick="jsNota(349.228)" class="white b"><span class="notas_blancas"></span></li>
         <li onclick="jsNota(369.994)" class=" black as"></li>
         <li onclick="jsNota(391.995)" class=" white a"></li>
         <li onclick="jsNota(415.305)" class="black gs"></li>
@@ -62,6 +67,17 @@
       </ul>
 
     </section>
+
+    <footer class="footer">
+      <span class="footer-text">© 2022 • Educamás</span>
+      <div class="iconos_redes">
+        <i class="bi bi-instagram"></i>
+        <i class="bi bi-github"></i>
+        <i class="bi bi-facebook"></i>
+        <i class="bi bi-twitter"></i>
+      </div>
+
+    </footer>
 
   </main>
   <script src="navbar.js"></script>
