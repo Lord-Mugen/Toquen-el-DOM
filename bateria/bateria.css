@@ -80,8 +80,40 @@
     top: 2.3rem;
   }
   
+  
+.videotutorial{
+  color: #ffd067;
+  padding-top: 100px;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: var(--primera-fuente);
+}
 
+ iframe{
+   height: 300px;
+   width: 300px;
+ }
 
+ .learn__drum{
+  color: #ffd067;
+  padding-top: 100px;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: var(--primera-fuente);
+}
+
+h4{
+  margin-top: 100px;
+}
+
+p{
+  color: #fff5ed;
+  font-size: 20px;
+}
 
 
 

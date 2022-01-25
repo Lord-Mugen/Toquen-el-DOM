@@ -94,7 +94,6 @@ iframe{
   width: 360px;
   height: 360px;
 }
-<<<<<<< HEAD
 .learn__keyboard{
   color: #ffd067;
   padding-top: 100px;
@@ -112,7 +111,8 @@ h4{
 p{
   color: #fff5ed;
   font-size: 20px;
-=======
+}
+
 main{
   padding: 0 2rem;
 }
@@ -155,7 +155,6 @@ ul .white:active {
   border-bottom:1px solid #999;
   box-shadow:2px 0 3px rgba(0,0,0,0.1) inset,-5px 5px 20px rgba(0,0,0,0.2) inset,0 0 3px rgba(0,0,0,0.2);
   background:linear-gradient(to bottom,#fff 0%,#e9e9e9 100%)
->>>>>>> 836589cce4192fe1b5f92c80c6a8e8e8bb662946
 }
 
 .black {
