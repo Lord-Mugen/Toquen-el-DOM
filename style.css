@@ -36,7 +36,7 @@ body {
   font-size: 1rem;
   margin-bottom: 10rem;
 }
-
+/* Inicio de seccion de piano */
 .container-piano {
   background: linear-gradient(rgba(50, 50, 50, 0), rgba(50, 50, 50, 0.2)),
     url(img/piano.png);
@@ -78,7 +78,48 @@ body {
   background-color: black;
   color: #ffd067;
 }
+/* Inicio de seccion de bateria */
+.container-bateria{
+  background: linear-gradient(rgba(50, 50, 50, 0), rgba(50, 50, 50, 0.2)),
+    url(img/palillos-tambor-golpeando-tambor-salpicaduras-agua-sobre-fondo-negro-iluminacion-escenario_169016-14166.jpg);
+  background-size: cover;
+  height: 16rem;
+  width: 100%;
+  padding-top: 6rem;
+  align-items: center;
+  text-align: center;
+  font-family: var(--segunda-fuente);
+  margin-bottom: 15rem;
+  border-radius: 15px;
+}
 
+ .container-bateria-tittle{
+  font-size: 3rem;
+  color: var(--color-blanco);
+  margin-top: 4rem;
+}
+
+.container-bateria-btn{
+  background-color: var(--color-amarillo);
+  color: black;
+  border: none;
+  border-radius: 30px;
+  padding: 1rem 1rem;
+  margin-top: 4rem;
+  font-size: 2rem;
+}
+
+.container-bateria-btn a{
+  text-decoration: none;
+  color: #000;
+}
+.container-bateria-btn:hover{
+  background-color: #000;
+  color: #ffd067;
+
+} 
+
+/* inicio footer */
 .footer-text {
   font-family: var(--primera-fuente);
   color: #ffd067;
@@ -147,6 +188,16 @@ body {
     font-size: 1.8rem;
   }
 
+  .container-bateria{
+    height: 20rem;
+  }
+  .container-bateria-tittle{
+    font-size: 4rem;
+  }
+  .container-bateria.btn{
+    font-size: 1.8rem;
+  }
+
   .footer-text {
     font-size: 1.2rem;
   }
@@ -174,6 +225,16 @@ body {
     font-size: 4.5rem;
   }
   .container-piano-btn {
+    font-size: 2rem;
+  }
+
+  .container-bateria{
+    height: 22rem;
+  }
+  .container-bateria-tittle{
+    font-size: 4.5rem;
+  }
+  .container-bateria.btn{
     font-size: 2rem;
   }
 
@@ -207,6 +268,16 @@ body {
     font-size: 2.2rem;
   }
 
+  .container-bateria{
+    height: 24rem;
+  }
+  .container-bateria-tittle{
+    font-size: 5rem;
+  }
+  .container-bateria.btn{
+    font-size: 2.2rem;
+  }
+
   .footer-text {
     font-size: 1.2rem;
   }
@@ -214,4 +285,6 @@ body {
   .bi {
     font-size: 2.2rem;
   }
+}
+
 }
