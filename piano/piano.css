@@ -90,15 +90,13 @@ body {
   font-family: var(--primera-fuente);
 }
 
-<<<<<<< HEAD
 .videotutorial h3 {
   font-size: 2rem;
-=======
+  
 iframe{
   width: 360px;
   height: 360px;
   
->>>>>>> 4dab75d4223fdb52931d01b62dfd2e081fe8a865
 }
 
 iframe {
