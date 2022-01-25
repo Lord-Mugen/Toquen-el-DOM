@@ -89,15 +89,14 @@ body {
   text-align: center;
   font-family: var(--primera-fuente);
 }
+ 
 
 .videotutorial h3 {
   font-size: 2rem;
-  
-iframe{
-  width: 360px;
-  height: 360px;
-  
+
 }
+  
+
 
 iframe {
   height: 18.875em;
