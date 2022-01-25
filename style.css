@@ -199,6 +199,28 @@ body {
     font-size: 1.5rem;
   }
 
+
+  .container-bateria{
+    height: 18rem;
+  }
+  .container-bateria-title {
+    font-size: 3.5rem;
+  }
+  .container-bateria-btn {
+    font-size: 1.5rem;
+  }
+
+
+  .container-marimba{
+    height: 18rem;
+  }
+  .container-marimba-title {
+    font-size: 3.5rem;
+  }
+  .container-marimba-btn {
+    font-size: 1.5rem;
+  }
+
   .footer-text {
     font-size: 1.2rem;
   }
@@ -238,6 +260,17 @@ body {
   .container-bateria.btn{
     font-size: 1.8rem;
   }
+
+  .container-marimba{
+    height: 20rem;
+  }
+  .container-marimba-tittle{
+    font-size: 4rem;
+  }
+  .container-marimba.btn{
+    font-size: 1.8rem;
+  }
+
 
   .footer-text {
     font-size: 1.2rem;
@@ -279,6 +312,15 @@ body {
     font-size: 2rem;
   }
 
+  .container-marimba{
+    height: 22rem;
+  }
+  .container-marimba-tittle{
+    font-size: 4.5rem;
+  }
+  .container-marimba.btn{
+    font-size: 2rem;
+  }
   .footer-text {
     font-size: 1.2rem;
   }
@@ -316,6 +358,16 @@ body {
     font-size: 5rem;
   }
   .container-bateria.btn{
+    font-size: 2.2rem;
+  }
+
+  .container-marimba{
+    height: 24rem;
+  }
+  .container-marimba-tittle{
+    font-size: 5rem;
+  }
+  .container-marimba.btn{
     font-size: 2.2rem;
   }
 
