@@ -51,6 +51,9 @@ body {
   color: inherit;
   font-size: 2rem;
 }
+.navbar__list__interna{
+  display: none;
+}
 
 .navbar__list {
   position: absolute;
@@ -83,12 +86,11 @@ body {
 
 .videotutorial {
   color: #ffd067;
-  padding-top: 100px;
-  /*   font-size: 2vw;
- */
+  padding-top: 10rem;
   justify-content: center;
   text-align: center;
   font-family: var(--primera-fuente);
+margin-bottom: 2rem;
 }
  
 
@@ -106,12 +108,13 @@ iframe {
 
 .learn__keyboard {
   color: #ffd067;
-  padding-top: 50px;
+  padding-top: 6rem;
   font-size: 30px;
   display: flex;
   justify-content: center;
   text-align: center;
   font-family: var(--primera-fuente);
+  margin-bottom: 2rem;
 }
 .learn__keyboard h3 {
   font-size: 2rem;
@@ -123,7 +126,7 @@ iframe {
 }
 
 .learn__keyboard img {
-  max-width: 10rem;
+  max-width: 14rem;
 }
 
 p {
@@ -131,20 +134,19 @@ p {
   font-size: 1rem;
 }
 
-/* main {
-  margin: 0 2rem;
-} */
-
 /* SECCIÓN DEL PIANO 
  */
 
 .piano {
-  font-size: 0.5rem;
+  font-size: 10px;
   position: relative;
   text-align: center;
   font-family: var(--primera-fuente);
   color: var(--color-amarillo);
-  padding-top: 50px;
+  /* padding-top: 50px; */
+  /* margin-top: 5rem; */
+  margin-bottom: 5rem;
+  padding-top: 6rem;
 }
 
 .piano h3 {
@@ -153,7 +155,7 @@ p {
 .set {
   height: 18.875em;
   width: 34em;
-  margin: 5em auto;
+  margin: 1em auto;
   padding: 3em 0 0 3em;
   position: relative;
   border: 1px solid #160801;
@@ -283,10 +285,10 @@ li {
 }
 
 .learn__keyboard img {
-  max-width: 12rem;
+  max-width: 22rem;
 }
 .piano {
-  font-size: 2vw;
+  font-size: 12px;
 }
 .piano h3 {
 font-size: 2.5rem;
@@ -309,4 +311,119 @@ font-size: 2.5rem;
   font-size: 1.2rem;
 }
 
+@media screen and (min-width: 768px) {
+
+ .navbar__menu_button {
+  display: none;
 }
+
+.navbar__list__interna{
+  text-align: center;
+display: flex;
+  font-family: var(--primera-fuente);
+  font-size: 1.2rem;
+  margin-right: 6rem;
+}
+
+.navbar__list__interna li{
+  margin-right: 2rem;
+  width: 100%;
+  height: 100%;
+}
+
+.navbar__list__interna li a{
+  text-decoration: none;
+  color: #000;
+ 
+}
+
+.navbar__list__interna li a:hover{
+ color: var(--color-amarillo);
+ background-color: var(--fondo-oscuro);
+}
+
+.learn__keyboard img {
+  max-width: 24rem;
+}
+
+.piano{
+font-size: 14px;
+}
+
+@media screen and (min-width: 1024px) {
+
+ .navbar__menu_button {
+  display: none;
+}
+
+.navbar__list__interna{
+  text-align: center;
+display: flex;
+  font-family: var(--primera-fuente);
+  font-size: 1.2rem;
+  margin-right: 6rem;
+}
+
+.navbar__list__interna li{
+  margin-right: 2rem;
+  width: 100%;
+  height: 100%;
+}
+
+.navbar__list__interna li a{
+  text-decoration: none;
+  color: #000;
+ 
+}
+
+.navbar__list__interna li a:hover{
+ color: var(--color-amarillo);
+ background-color: var(--fondo-oscuro);
+}
+
+.learn__keyboard img {
+  max-width: 26rem;
+}
+.piano{
+font-size: 16px;
+}
+
+@media screen and (min-width: 1280px) {
+
+ .navbar__menu_button {
+  display: none;
+}
+
+.navbar__list__interna{
+  text-align: center;
+display: flex;
+  font-family: var(--primera-fuente);
+  font-size: 1.2rem;
+  margin-right: 6rem;
+}
+
+.navbar__list__interna li{
+  margin-right: 2rem;
+  width: 100%;
+  height: 100%;
+}
+
+.navbar__list__interna li a{
+  text-decoration: none;
+  color: #000;
+ 
+}
+
+.navbar__list__interna li a:hover{
+ color: var(--color-amarillo);
+ background-color: var(--fondo-oscuro);
+}
+
+.learn__keyboard img {
+  max-width: 26rem;
+}
+
+.piano{
+font-size: 18px;
+}
+
