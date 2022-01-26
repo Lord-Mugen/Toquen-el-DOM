@@ -15,7 +15,7 @@ Correciones:<br>
 <h1>Costo-del-proyecto</h1>
 El costo del proyecto en ningún momento alcanzo el nivel monetario, unicamente se le invirtio tiempo y dedicación.
 
-Requerimientos-del-proyecto
+<h1>Requerimientos-del-proyecto</h1>
 Para que nuestro proyecto funcionara se requeria el cumplimiento de los siguientes requisitos:
 
 *El proyecto DEBE implementar metodología SCRUM.<br>
