@@ -92,10 +92,14 @@ body {
   font-family: var(--primera-fuente);
 margin-bottom: 2rem;
 }
+ 
 
 .videotutorial h3 {
   font-size: 2rem;
+
 }
+  
+
 
 iframe {
   width: 20rem;
